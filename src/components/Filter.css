@@ -1,0 +1,21 @@
+.filter-container {
+    display: flex;               /* Use flexbox for alignment */
+    justify-content: center;     /* Center the buttons horizontally */
+    margin: 20px 0;             /* Add margin above and below the buttons */
+  }
+  
+  .filter-container button {
+    margin: 0 10px;             /* Add margin on the left and right of each button */
+    padding: 10px 20px;         /* Add some padding to the buttons */
+    cursor: pointer;             /* Change cursor to pointer on hover */
+    border: none;                /* Remove default border */
+    border-radius: 5px;         /* Round the corners */
+    background-color: #679297;  /* Set a background color */
+    color: white;                /* Set text color to white */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  .filter-container button:hover {
+    background-color: #0056b3;  /* Darker background on hover */
+  }
+  

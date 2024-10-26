@@ -1,0 +1,65 @@
+.dashboard {
+  background-color: #fffbf0; /* Soft pastel background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+  width: 100%;
+  max-width: 450px; /* Slightly wider */
+  margin: 30px auto; /* Center the dashboard */
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #ff6f61; /* Warm, vibrant color */
+  font-size: 28px; /* Larger title font */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dashboard-stats {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 20px; /* More space between cards */
+}
+
+.stat-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+  text-align: center;
+  transition: transform 0.25s, box-shadow 0.25s; /* Smooth scaling and shadow effect */
+  cursor: pointer;
+}
+
+.stat-card:hover {
+  transform: scale(1.08); /* Enlarge on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.stat-card.total-tasks {
+  background-color: #f9c74f; /* Golden yellow */
+  color: #fff;
+}
+
+.stat-card.completed-tasks {
+  background-color: #43aa8b; /* Green for completed tasks */
+  color: #fff;
+}
+
+.stat-card.pending-tasks {
+  background-color: #f94144; /* Red for pending tasks */
+  color: #fff;
+}
+
+.stat-card h3 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.stat-card p {
+  font-size: 26px; /* Larger font size for numbers */
+  margin: 10px 0 0;
+  font-weight: bold;
+}
